@@ -6,7 +6,7 @@ Steps involved:
 
 * Change the deploy script accordingly 
 
-* When the git repo was initialized, push the code into the target server and the hook (post-receive) will build the respective containers (NGINX and Mobydock)
+* As soon as the git repo is initialized and the unit files copied, push the code into the target server and git hook (post-receive) will build all the respective containers - NGINX and Mobydock
 
 
 EOF
